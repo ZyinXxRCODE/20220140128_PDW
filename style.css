@@ -1,0 +1,104 @@
+*,
+html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('assets/gambar3.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Arial', sans-serif; /* Menetapkan font umum */
+}
+
+/* Navbar */
+.container-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 4, 4, 0.3); /* Meningkatkan transparansi */
+    padding: 10px 0; /* Menambahkan padding atas dan bawah */
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-navbar {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #222; /* Mengubah warna tombol */
+    color: #fff; /* Mengubah warna teks tombol */
+    height: 40px;
+    width: 120px;
+    border: none; /* Menghilangkan border */
+    cursor: pointer; /* Mengubah kursor menjadi tangan saat dihover */
+    font-family: 'Arial', sans-serif; /* Menetapkan font */
+}
+
+.button-navbar:hover {
+    background-color: #555; /* Mengubah warna tombol saat dihover */
+    transition: background-color 0.3s ease; /* Efek transisi */
+}
+/* Navbar End */
+
+/* Content */
+.card {
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan yang lebih dramatis */
+    margin: 10% auto;
+    background-color: #fff; /* Mengubah warna latar belakang */
+}
+
+.card-header {
+    background-color: #fad400;
+    padding: 20px; /* Menambahkan padding yang lebih besar */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center; /* Mengatur teks menjadi terpusat */
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px; /* Menambahkan ukuran teks yang lebih besar */
+    color: #333; /* Mengubah warna teks */
+}
+
+.card-body {
+    padding: 20px;
+    color: #666; /* Mengubah warna teks */
+}
+
+.card-body p {
+    margin-bottom: 15px; /* Menambahkan margin bawah yang lebih besar */
+}
+
+.card-body ol {
+    padding-left: 20px;
+}
+
+.card-body ol li {
+    margin-bottom: 10px;
+}
+/* Content End */
+
+/* Footer */
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31, 4, 4, 0.3);
+    padding: 15px;
+    color: #fff;
+}
+
+.h1 {
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Footer End */
